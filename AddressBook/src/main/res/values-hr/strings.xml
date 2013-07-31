@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AddressBook</string>
+    <string name="action_settings">Postavke</string>
+    <string name="add_new_contact">Dodaj</string>
+    <string name="full_name">Puno ime</string>
+    <string name="phone_number">Broj mobitela</string>
+    <string name="email_address">Email adresa</string>
+    <string name="cancel">Odustani</string>
+    <string name="save">Spremi</string>
+
+</resources>
