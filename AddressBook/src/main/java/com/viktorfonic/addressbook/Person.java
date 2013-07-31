@@ -3,6 +3,7 @@ package com.viktorfonic.addressbook;
 /**
  * Created by viktorfonic on 31.07.2013..
  */
+@SuppressWarnings("unused")
 public class Person {
     private String name, phone, email;
 
