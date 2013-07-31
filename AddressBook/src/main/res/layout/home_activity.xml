@@ -8,7 +8,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/add_new_contact"
-            android:id="@+id/button_add" />
+            android:id="@+id/button_add"
+            android:onClick="startAddNewContactActivity"/>
     <ListView
             android:layout_width="fill_parent"
             android:layout_height="0dp"

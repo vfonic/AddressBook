@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:id="@+id/full_name"
+            android:hint="@string/full_name"
+            android:paddingTop="@dimen/activity_vertical_margin"/>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/phone_number"
+            android:id="@+id/phone"
+            android:paddingTop="@dimen/activity_vertical_margin"/>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email_address"
+            android:id="@+id/email"
+            android:paddingTop="@dimen/activity_vertical_margin"/>
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="New Button"
+                    android:id="@+id/button"/>
+
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="New Button"
+                    android:id="@+id/button2"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

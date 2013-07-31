@@ -1,10 +1,14 @@
-package com.viktorfonic.addressbook;
+package com.viktorfonic.addressbook.activity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
+import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+
+import com.viktorfonic.addressbook.Contact;
+import com.viktorfonic.addressbook.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -40,11 +44,9 @@ public class HomeActivity extends Activity {
         return person;
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.home, menu);
-        return true;
+    @SuppressWarnings("unused")
+    public void startAddNewContactActivity(View view) {
+        Intent i = new Intent(this, AddContactActivity.class);
+        startActivity(i);
     }
-
 }
