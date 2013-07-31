@@ -5,6 +5,9 @@ package com.viktorfonic.addressbook;
  */
 @SuppressWarnings("unused")
 public class Contact {
+    public static final String NAME = "name";
+    public static final String PHONE = "phone";
+    public static final String EMAIL = "email";
     private String name, phone, email;
 
     public Contact(String name, String phone, String email) {
