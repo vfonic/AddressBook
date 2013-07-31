@@ -4,10 +4,10 @@ package com.viktorfonic.addressbook;
  * Created by viktorfonic on 31.07.2013..
  */
 @SuppressWarnings("unused")
-public class Person {
+public class Contact {
     private String name, phone, email;
 
-    public Person(String name, String phone, String email) {
+    public Contact(String name, String phone, String email) {
         this.name = name;
         this.phone = phone;
         this.email = email;
