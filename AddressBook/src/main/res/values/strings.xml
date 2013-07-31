@@ -9,5 +9,8 @@
     <string name="email_address">Email address</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
+    <string name="call">Call</string>
+    <string name="facebook">Facebook</string>
+    <string name="avatar">Contact photo</string>
 
 </resources>

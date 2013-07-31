@@ -22,6 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.AddContactActivity" />
+        <activity android:name=".activity.ProfileActivity" />
     </application>
 
 </manifest>

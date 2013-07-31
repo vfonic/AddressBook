@@ -9,5 +9,7 @@
     <string name="email_address">Email adresa</string>
     <string name="cancel">Odustani</string>
     <string name="save">Spremi</string>
+    <string name="call">Zovi</string>
+    <string name="avatar">Slika kontakta</string>
 
 </resources>
