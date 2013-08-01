@@ -49,7 +49,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/facebook"
-                    android:onClick="closeActivity"
+                    android:onClick="openFacebook"
                     android:id="@+id/button"/>
 
             <Button
@@ -57,7 +57,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/call"
-                    android:onClick="addContact"
+                    android:onClick="callContact"
                     android:id="@+id/button2"/>
         </LinearLayout>
     </RelativeLayout>
