@@ -21,7 +21,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activity.AddContactActivity"/>
+        <activity android:name=".activity.AddContactActivity"
+                android:windowSoftInputMode="adjustResize"/>
         <activity android:name=".activity.ProfileActivity"/>
     </application>
 </manifest>
